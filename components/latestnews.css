@@ -6,28 +6,24 @@
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom-width: 2px;
-  border-bottom:
 }
 #latestnews.container.latestnews .latestnews-title {
   padding-top: 25px;
   padding-bottom: 25px;
   text-transform: uppercase;
 }
-#latestnews.container.latestnews .row .col-md-4 {
+#latestnews.container.latestnews .container {
+  width: 100%;
+}
+#latestnews.container.latestnews .container .row .col-md-4 {
   padding-top: 25px;
   padding-bottom: 25px
 }
-#latestnews.container.latestnews .row .col-md-4 .latestnews-image {
-  position: relative;
-  width: auto;
-  height: 100%;
-  display: block;
-  overflow: hidden;
+#latestnews.container.latestnews .container .row .col-md-4 .latestnews-image {
   padding: 5px;
 }
-#latestnews.container.latestnews .row .col-md-4 .latestnews-image img {
-  height: auto;
-  max-width: 300px;
+#latestnews.container.latestnews .container .row .col-md-4 .latestnews-image img {
+  width: 100%;
 }
 #latestnews.container.latestnews .button .btn {
   background-color: #024985;

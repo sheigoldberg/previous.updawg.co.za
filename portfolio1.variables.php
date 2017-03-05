@@ -1,26 +1,10 @@
 <?php
 
+include_once './global.variables.php';
+
 // Title
 // head.php
-$page_title = "upDawg Portfolio Template";
-$page_icon = "images/BlackPugFace.png";
-$page_google_analytics_UA = "UA-83682070-1";
-
-// Menu
-// navbar-fixed-top.php
-$menu_image = "images/BlackPugFace.png";
-$menu_home = "http://updawg.co.za/templates/portfolio/";
-$menu_href = "http://updawg.co.za/templates/portfolio/portfolio1.php";
-$menu_array['Portfolio']['href'] = "$menu_home#portfolio";
-$menu_array['Portfolio']['text'] = "Portfolio";
-$menu_array['Services']['href'] = "$menu_home#services";
-$menu_array['Services']['text'] = "Services";
-$menu_array['About']['href'] = "$menu_home#aboutus";
-$menu_array['About']['text'] = "About";
-$menu_array['Testimonials']['href'] = "$menu_home#testimonials";
-$menu_array['Testimonials']['text'] = "Testimonials";
-$menu_array['Contact']['href'] = "$menu_home#contactdetails";
-$menu_array['Contact']['text'] = "Contact";
+$page_title = "SA Youth Foundation";
 
 // Header
 // header-carousel.php

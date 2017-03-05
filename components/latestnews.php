@@ -7,16 +7,32 @@
   <div class="latestnews-title bottom_border">
     <h2>Latest News</h2>
   </div>
-  <!-- Three columns of text below the carousel -->
-  <div class="row">
-    <div class="col-md-4">
-      <div class="latestnews-image">
-          <img src="images/news-20160105.jpg">
-      </div>
-      <h4>upDawg Launch</h4>
-      <p>upDawg has a launching special. Want a professional website for your small business at the best price? Send an email to sales@updawg.co.za with the subject “Set my site up Dawg” and we will halve the cost of the initiation fee. Offer expires Sunday the 9th January at 24h00.</p>
-    </div><!-- /.col-md-4 -->
-  </div><!-- /.row -->
+  <div class="latestnews-subtitle">
+    <h3><?php print("$latestnews_intro_paragraph"); ?></h3>
+  </div>
+  <div class="container">
+    <!-- Create the latestnews from $latestnews_array --><?php print("\n");
+    foreach($latestnews_array as $latestnews_row){
+      print("      <div class=\"row\">\n");
+      foreach($latestnews_row as $latestnews_item => $latestnews_item_array){
+        $latestnews_href = $latestnews_item_array['latestnews_href'];
+        $latestnews_image = $latestnews_item_array['latestnews_image'];
+        $latestnews_title = $latestnews_item_array['latestnews_title'];
+        $latestnews_subtitle = $latestnews_item_array['latestnews_subtitle'];
+        $latestnews_intro = $latestnews_item_array['latestnews_intro'];
+        $latestnews_full_story = $latestnews_item_array['latestnews_full_story'];
+        print("        <div class=\"col-md-4\">\n");
+        print("          <div class=\"latestnews-image\">\n");
+        print("              <img src=\"$latestnews_image\">\n");
+        print("          </div>\n");
+        print("          <h4>$latestnews_title</h4>\n");
+        print("          <p>$latestnews_intro</p>\n");
+        print("        </div><!-- /.col-md-4 -->\n");
+      }
+      print("      </div><!-- /.row -->\n");
+    } ?>
+    <!-- End - Create the latestnews from $latestnews_array -->
+  </div><!-- /.container -->
   <div class="button" style="color=#000;">
     <a href="http://updawg.co.za/blog/"><button type="button" class="btn btn-primary outline">See all our news</button></a>
   </div>

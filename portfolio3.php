@@ -2,6 +2,7 @@
 
 include_once './portfolio3.variables.php';
 include_once './head.php';
+include_once './components/banner.php';
 include_once './components/navbar-fixed-top.php';
 include_once './components/header-image.php';
 include_once './components/masonry.image.view.php';
