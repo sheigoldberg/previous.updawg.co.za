@@ -42,16 +42,25 @@ $header_array['2']['button_href'] = "testimonials";
 
 // Services
 // services.php
-$services_intro_paragraph = "Lorem ipsum dolor sit amet consectetur.";
-$service_array['E-Commerce']['glyphicon'] = "glyphicon-picture";
-$service_array['E-Commerce']['service_title'] = "E-Commerce";
-$service_array['E-Commerce']['service_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$service_array['Responsive Design']['glyphicon'] = "glyphicon-cloud";
-$service_array['Responsive Design']['service_title'] = "Responsive Design";
-$service_array['Responsive Design']['service_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$service_array['Web Security']['glyphicon'] = "glyphicon-volume-up";
-$service_array['Web Security']['service_title'] = "Web Security";
-$service_array['Web Security']['service_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$services_intro_paragraph = "Striving Mind Construction & Projects delivers a broad range of services that guarantee measurable results and a positive impact on your investments!";
+$service_array[0]['Commercial & Residential Construction']['glyphicon'] = "glyphicon glyphicon-flash";
+$service_array[0]['Commercial & Residential Construction']['service_title'] = "Commercial & Residential Construction";
+$service_array[0]['Commercial & Residential Construction']['service_paragraph'] = "We offer commercial or residential construction and/or renovation services.";
+$service_array[0]['Private Homes']['glyphicon'] = "glyphicon glyphicon-home";
+$service_array[0]['Private Homes']['service_title'] = "Private Homes";
+$service_array[0]['Private Homes']['service_paragraph'] = "We strive to meet any of your needs in the construction field whether you are seeking to build that dream house for your family or a comfortable retirement home for yourself.";
+$service_array[0]['Property Developments']['glyphicon'] = "glyphicon glyphicon-picture";
+$service_array[0]['Property Developments']['service_title'] = "Property Developments";
+$service_array[0]['Property Developments']['service_paragraph'] = "We contract for low cost housing as well as plot and plan. We offer commercial or residential construction and/or renovation services.";
+$service_array[1]['Project Consulting Engineering']['glyphicon'] = "glyphicon glyphicon-random";
+$service_array[1]['Project Consulting Engineering']['service_title'] = "Project Consulting Engineering";
+$service_array[1]['Project Consulting Engineering']['service_paragraph'] = "We also offer our consulting services to our private clients and for government tenders.";
+$service_array[1]['Private Investment Consultation']['glyphicon'] = "glyphicon glyphicon-thumbs-up";
+$service_array[1]['Private Investment Consultation']['service_title'] = "Private Investment Consultation";
+$service_array[1]['Private Investment Consultation']['service_paragraph'] = "We offer consultation services, creating a platform to assist you in developing your ideas and building with budget and profit sense.";
+$service_array[1]['Social Initiative Construction and Development Projects']['glyphicon'] = "glyphicon glyphicon-heart-empty";
+$service_array[1]['Social Initiative Construction and Development Projects']['service_title'] = "Social Initiative Construction and Development Projects";
+$service_array[1]['Social Initiative Construction and Development Projects']['service_paragraph'] = "We are happy to engage in Social Initiative projects. ";
 
 // Call to action single
 // calltoaction-single.php

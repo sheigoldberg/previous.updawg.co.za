@@ -13,7 +13,8 @@
 }
 #testimonials .cover {
   background: rgba(0, 0, 0, 0.6);
-  height: 100%;
+  height: auto;
+  min-height: calc(100vh - 80px);
   background: rgba(191, 191, 191, 0.4);
   color: #fff;
   text-align: center;

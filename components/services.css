@@ -16,19 +16,26 @@
 #services.container.services .services-title {
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-bottom: 50px;
   text-transform: uppercase;
+}
+#services.container.services .services-subtitle {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#services.container.services .container {
+  padding: 25px;
 }
 
 /* Center align the text within the three columns below the carousel */
-.services .col-md-4 {
+#services.container.services .container .col-md-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+  padding: 10px;
 }
-.services h2 {
+#services.container.services .container h2 {
   font-weight: normal;
 }
-.services .col-md-4 p {
+#services.container.services .container .col-md-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
