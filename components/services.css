@@ -1,0 +1,34 @@
+/* ============================================================
+  services
+============================================================ */
+/* SERVICES CONTENT
+-------------------------------------------------- */
+
+/*Create padding on the top and the bottom for the services section*/
+
+.services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+#services.container.services .services-title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+/* Center align the text within the three columns below the carousel */
+.services .col-md-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.services h2 {
+  font-weight: normal;
+}
+.services .col-md-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}

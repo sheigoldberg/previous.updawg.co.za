@@ -1,0 +1,38 @@
+[05-Mar-2017 01:29:19] PHP Warning:  include_once(./variables.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home1/updawgco/public_html/templates/portfolio/index.php on line 3
+[05-Mar-2017 01:29:19] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening './variables.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/updawgco/public_html/templates/portfolio/index.php on line 3
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/navbar-fixed-top.php on line 24
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/header-carousel.php on line 10
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/header-carousel.php on line 20
+[05-Mar-2017 01:29:19] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 16
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/services.php on line 14
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/testimonial-carousel.php on line 16
+[05-Mar-2017 01:29:19] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/testimonial-carousel.php on line 26
+[05-Mar-2017 01:29:54] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:35:57] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:36:23] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:38:22] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:38:41] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:39:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:41:41] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:42:16] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:42:45] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:42:57] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:43:45] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:44:18] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:46:08] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 01:46:44] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:04:01] PHP Parse error:  syntax error, unexpected '<' in /home1/updawgco/public_html/templates/portfolio/components/masonry.image.view.php on line 13
+[05-Mar-2017 02:14:15] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/header-carousel.php on line 10
+[05-Mar-2017 02:14:15] PHP Warning:  Invalid argument supplied for foreach() in /home1/updawgco/public_html/templates/portfolio/components/header-carousel.php on line 20
+[05-Mar-2017 02:14:15] PHP Parse error:  syntax error, unexpected '<' in /home1/updawgco/public_html/templates/portfolio/components/masonry.image.view.php on line 13
+[05-Mar-2017 02:14:41] PHP Parse error:  syntax error, unexpected '<' in /home1/updawgco/public_html/templates/portfolio/components/masonry.image.view.php on line 13
+[05-Mar-2017 02:17:47] PHP Parse error:  syntax error, unexpected '<' in /home1/updawgco/public_html/templates/portfolio/components/masonry.image.view.php on line 13
+[05-Mar-2017 02:18:06] PHP Parse error:  syntax error, unexpected '<' in /home1/updawgco/public_html/templates/portfolio/components/masonry.image.view.php on line 13
+[05-Mar-2017 02:38:38] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:39:30] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:40:37] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:45:34] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:45:47] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:45:55] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36
+[05-Mar-2017 02:53:36] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/updawgco/public_html/templates/portfolio/components/portfolio.php on line 36

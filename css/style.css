@@ -1,0 +1,83 @@
+/*Customer updawg.co.za CSS styling document*/
+
+/* ============================================================
+  body
+============================================================ */
+/*Ensure body starts after the navbar and banner*/
+body{
+  padding-top: 81px;
+}
+
+/* ============================================================
+  Generic css used throughout the page
+============================================================ */
+.bottom_border {
+  position:relative;
+  display:inline-block;
+}
+.bottom_border:after {
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  /*top:75%;*/
+  bottom: 0px;
+  margin:10px auto;
+  width:50px;
+  height:1px;
+  background:#024985;
+}
+
+/* ============================================================
+  Button
+============================================================ */
+/**************************
+  DEFAULT BOOTSTRAP STYLES
+**************************/
+/*Button div element*/
+.button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+/***********************
+  OUTLINE BUTTONS
+************************/
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+.btn-primary.outline {
+  border: 1px solid #024985;
+  background-color: #1c1551;
+}
+.btn-primary.outline:hover,
+.btn-primary.outline:focus,
+.btn-primary.outline:active,
+.btn-primary.outline.active,
+.open > .dropdown-toggle.btn-primary {
+  border-color: #024985;
+  background-color: #024985;
+}
+.btn-primary.outline:active,
+.btn-primary.outline.active {
+  /*border-color: #024985;*/
+  background-color: #024985;
+  /*box-shadow: none;*/
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+/*============================================================*/

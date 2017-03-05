@@ -1,0 +1,100 @@
+/* ============================================================
+  header-image
+============================================================ */
+/* ============================================================
+  Header Carousel
+============================================================ */
+#header-image.header-image {
+  height: calc(100vh - 81px);
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+#header-image.header-image .imageopacitydiv {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text z-index: 1;
+  background: rgba(191, 191, 191, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+  /*font: 75px/1.1 "Roboto", sans-serif;*/
+  font-weight: 300;
+  color: #ffffff;
+  padding: 25px;
+  text-transform: uppercase;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+  color: #ffffff;
+  /*font: 50px/1.1 "Roboto", sans-serif;*/
+  font-weight: 300;
+  padding: 25px;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+  color: #ffffff;
+  /*font: 35px/1.1 "Roboto", sans-serif;*/
+  padding: 25px;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .button a .btn-primary.outline {
+  background-color: #1c1551;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .button a .btn-primary.outline:hover {
+  background-color: #024985;
+}
+
+/* ============================================================
+  This is where we deal with the responsive elements of the design
+============================================================ */
+
+@media only screen and (max-width: 768px)  {
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+    font: 30px/1.1 "Roboto", sans-serif;
+    padding: 10px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+    font: 20px/1.1 "Roboto", sans-serif;
+    padding: 10px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+    font: 15px/1.1 "Roboto", sans-serif;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+    font: 50px/1.1 "Roboto", sans-serif;
+    padding: 20px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+    font: 30px/1.1 "Roboto", sans-serif;
+    padding: 20px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+    font: 20px/1.1 "Roboto", sans-serif;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px)  {
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+    font: 60px/1.1 "Roboto", sans-serif;
+    padding: 30px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+    font: 40px/1.1 "Roboto", sans-serif;
+    padding: 30px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+    font: 30px/1.1 "Roboto", sans-serif;
+    padding: 30px;
+  }
+}

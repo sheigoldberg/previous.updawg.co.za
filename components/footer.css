@@ -1,0 +1,26 @@
+/* ============================================================
+  footer
+============================================================ */
+#footer.footer .container {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%
+}
+#footer .container .row .col-sm-6.updawgfooter {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#footer .container .row .col-sm-6.updawgfooter a {
+  color: #000;
+}
+#footer .container .row .col-sm-6.updawgfooter img {
+  height: auto;
+  max-width: 60px;
+}

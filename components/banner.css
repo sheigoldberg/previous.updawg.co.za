@@ -1,0 +1,23 @@
+/* ============================================================
+  banner
+============================================================ */
+/*Set some details of the banner*/
+#banner {
+  top: 0;
+  position: fixed;
+  background-color: #024985;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  text-align: center;
+}
+#banner p {
+  margin: 5px 5px 5px 5px;
+  color: #fff;
+}
+#banner p a {
+  color: #fff;
+}

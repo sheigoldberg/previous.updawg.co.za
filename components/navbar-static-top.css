@@ -1,0 +1,40 @@
+
+/* ============================================================
+  navigation
+============================================================ */
+/*Set some details on the navbar*/
+.navbar-inverse {
+  background-image: -webkit-linear-gradient(top, #000 0%, #000 100%);
+  background-image:      -o-linear-gradient(top, #000 0%, #000 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+  background-image:         linear-gradient(to bottom, #000 0%, #000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.navbar-brand{
+  height: 80px;
+  width: 80px;
+  padding: 10px 50px 10px 50px;
+}
+.navbar-brand img{
+  height: 60px;
+  width: 60px;
+}
+.navbar-default .navbar-toggle,
+.navbar-inverse .navbar-toggle {
+  height: 40px;
+  width: 40px;
+  margin: 20px 50px 20px 50px;
+}
+.navbar-toggle .icon-bar {
+  width: 18px;
+}
+.navbar-nav li a {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+  text-align: center;
+}

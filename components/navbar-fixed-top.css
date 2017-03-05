@@ -1,0 +1,29 @@
+
+/* ============================================================
+  navigation
+============================================================ */
+.navbar-brand{
+  height: 80px;
+  width: 80px;
+  padding: 10px 50px 10px 50px;
+}
+.navbar-brand img{
+  height: 60px;
+  width: 60px;
+}
+.navbar-default .navbar-toggle,
+.navbar-light .navbar-toggle,
+.navbar-inverse .navbar-toggle {
+  height: 40px;
+  width: 40px;
+  margin: 20px 50px 20px 50px;
+}
+.navbar-toggle .icon-bar {
+  width: 18px;
+}
+.navbar-nav li a {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+  text-align: center;
+}

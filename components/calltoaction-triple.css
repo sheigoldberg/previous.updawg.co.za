@@ -1,0 +1,35 @@
+/* ============================================================
+  calltoaction-triple
+============================================================ */
+#calltoaction-triple.parallax {
+  min-height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.*/
+@media only screen and (min-width: 992px)  {
+  #calltoaction-triple.parallax {
+    background-attachment: fixed;
+  }
+}
+#calltoaction-triple.parallax .cover {
+  min-height: 400px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+}
+#calltoaction-triple.parallax .cover .parallax-title {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
+  text-transform: uppercase;
+  z-index: 1;
+}
+#calltoaction-triple.parallax .cover .container {
+  padding-bottom: 50px;
+}
+#calltoaction-triple.parallax .cover .container .row .col-md-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

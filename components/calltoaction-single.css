@@ -1,0 +1,49 @@
+/* ============================================================
+  calltoaction-single
+============================================================ */
+/* ============================================================
+  Parallax
+============================================================ */
+#calltoaction-single.parallax {
+  min-height: calc(100vh-81px);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 81px);
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+/* background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.*/
+/*@media only screen and (min-width: 992px)  {
+  #calltoaction-single.parallax {
+    background-attachment: fixed;
+  }
+}*/
+#calltoaction-single.parallax .cover {
+  min-height: calc(100vh-81px);
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background: rgba(191, 191, 191, 0.4);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#calltoaction-single.parallax .cover .parallax-title {
+  padding: 81px 25px 25px 25px;
+  /*text-align: center;*/
+  text-transform: uppercase;
+  z-index: 1;
+}
+#calltoaction-single.parallax .cover .parallax-content {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
+}
+#calltoaction-single.parallax .cover .parallax-calltoaction-content {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
+}

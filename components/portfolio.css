@@ -1,0 +1,43 @@
+/* ============================================================
+  portfolio
+============================================================ */
+#portfolio.portfolio {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom-width: 2px;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+#portfolio.portfolio .portfolio-title {
+  text-transform: uppercase;
+  padding: 25px;
+  padding-right: auto;
+  padding-left: auto;
+  max-width: 500px;
+  z-index: 1;
+}
+#portfolio.portfolio .container {
+  padding: 25px;
+}
+#portfolio.portfolio .container .row .col-md-4 .thumbnail,
+#portfolio.portfolio .container .row .col-sm-6 .thumbnail {
+  padding: 1px;
+  background-color: #f1f1f1;
+}
+#portfolio.portfolio .container .row .col-md-4 .thumbnail h4,
+#portfolio.portfolio .container .row .col-sm-6 .thumbnail h4 {
+  text-transform: uppercase;
+}
+#portfolio.portfolio .container .row .col-md-4 .thumbnail:hover,
+#portfolio.portfolio .container .row .col-sm-6 .thumbnail:hover {
+  background-color: #e1e1e1;
+}
+#portfolio.portfolio .container .row .col-md-4 .thumbnail a:hover,
+#portfolio.portfolio .container .row .col-sm-6 .thumbnail a:hover {
+  text-decoration: none;
+}
+#portfolio.portfolio .container .row .col-md-4 .thumbnail a img,
+#portfolio.portfolio .container .row .col-sm-6 .thumbnail a img {
+  padding: 0px;
+}
