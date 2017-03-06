@@ -6,10 +6,10 @@
 ============================================================ */
 #calltoaction-single.parallax {
   min-height: calc(100vh - 131px);
+  height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 81px);
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -21,7 +21,8 @@
   }
 }*/
 #calltoaction-single.parallax .cover {
-  min-height: calc(100vh - 1311px);
+  min-height: calc(100vh - 131px);
+  height: auto;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
