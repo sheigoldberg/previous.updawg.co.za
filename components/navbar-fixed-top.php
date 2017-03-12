@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a id="nav-container-brand" class="navbar-brand" href="<?php print("$menu_home"); ?>">
+            <a id="nav-container-brand" class="navbar-brand" href="<?php print("$home"); ?>">
               <img src="<?php print("$menu_image"); ?>" alt="">
             </a>
         </div>

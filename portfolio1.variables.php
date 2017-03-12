@@ -10,7 +10,7 @@ $page_title = "SA Youth Foundation";
 // header-carousel.php
 $header_image = "images/portfolio/portfolio1.jpg";
 $header_title = "Title 1";
-$header_subtitle = "SubTitle 1";
+$header_subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 $header_button = "Button1";
 $header_button_href = "services";
 
