@@ -19,14 +19,12 @@
   width: 100%;
 }
 #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv {
-  /*position: absolute;
-  left: 0;
-  top: 0;*/
   height: 100%;
   width: 100%;
   text-align: center;
   text z-index: 1;
-  background: rgba(191, 191, 191, 0.4);
+  background: var(--header-background-rgba);
+  color: var(--header-font-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,28 +44,16 @@
   padding: 25px;
 }
 #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
-  /*font: 75px/1.1 "Roboto", sans-serif;*/
   font-weight: 300;
-  color: #ffffff;
   padding: 25px;
   text-transform: uppercase;
 }
 #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
-  color: #ffffff;
-  /*font: 50px/1.1 "Roboto", sans-serif;*/
   font-weight: 300;
   padding: 25px;
 }
 #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
-  color: #ffffff;
-  /*font: 35px/1.1 "Roboto", sans-serif;*/
   padding: 25px;
-}
-#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button a .btn-primary.outline {
-  background-color: #1c1551;
-}
-#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button a .btn-primary.outline:hover {
-  background-color: #024985;
 }
 
 /* ============================================================
@@ -83,15 +69,15 @@
     padding: 10px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
-    font: 30px/1.1 "Roboto", sans-serif;
+    font-size: 30px;
     padding: 10px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
-    font: 20px/1.1 "Roboto", sans-serif;
+    font-size: 20px;
     padding: 10px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
-    font: 15px/1.1 "Roboto", sans-serif;
+    font-size: 15px;
     padding: 10px;
   }
 }
@@ -105,15 +91,15 @@
     padding: 20px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
-    font: 50px/1.1 "Roboto", sans-serif;
+    font-size: 50px;
     padding: 20px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
-    font: 30px/1.1 "Roboto", sans-serif;
+    font-size: 30px;
     padding: 20px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
-    font: 20px/1.1 "Roboto", sans-serif;
+    font-size: 20px;
     padding: 20px;
   }
 }
@@ -127,15 +113,15 @@
     padding: 30px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
-    font: 60px/1.1 "Roboto", sans-serif;
+    font-size: 60px;
     padding: 30px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
-    font: 40px/1.1 "Roboto", sans-serif;
+    font-size: 40px;
     padding: 30px;
   }
   #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
-    font: 30px/1.1 "Roboto", sans-serif;
+    font-size: 30px;
     padding: 30px;
   }
 }

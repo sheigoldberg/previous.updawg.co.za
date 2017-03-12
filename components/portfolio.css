@@ -23,7 +23,8 @@
 #portfolio.portfolio .container .row .col-md-4 .thumbnail,
 #portfolio.portfolio .container .row .col-sm-6 .thumbnail {
   padding: 1px;
-  background-color: #f1f1f1;
+  background-color: var(--portfolio-background-color);
+  color: var(--portfolio-color);
 }
 #portfolio.portfolio .container .row .col-md-4 .thumbnail h4,
 #portfolio.portfolio .container .row .col-sm-6 .thumbnail h4 {
@@ -31,7 +32,7 @@
 }
 #portfolio.portfolio .container .row .col-md-4 .thumbnail:hover,
 #portfolio.portfolio .container .row .col-sm-6 .thumbnail:hover {
-  background-color: #e1e1e1;
+  background-color: var(--portfolio-background-color-hover);
 }
 #portfolio.portfolio .container .row .col-md-4 .thumbnail a:hover,
 #portfolio.portfolio .container .row .col-sm-6 .thumbnail a:hover {
@@ -40,4 +41,8 @@
 #portfolio.portfolio .container .row .col-md-4 .thumbnail a img,
 #portfolio.portfolio .container .row .col-sm-6 .thumbnail a img {
   padding: 0px;
+}
+#portfolio.portfolio .container .row .col-md-4 .thumbnail a .caption,
+#portfolio.portfolio .container .row .col-sm-6 .thumbnail a .caption {
+  color: var(--portfolio-caption-color);
 }

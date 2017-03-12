@@ -2,8 +2,8 @@
 
 // Global attritbutes
 $page_google_analytics_UA = "UA-83682070-1";
-$page_icon = "images/sa-youth-foundation.png";
-$home = "http://updawg.co.za/addons/sa-youth-foundation.org/";
+$page_icon = "images/BlackPugFace.png";
+$home = "http://updawg.co.za/templates/foundation/";
 
 // Banner
 // banner.php
@@ -11,7 +11,7 @@ $banner_text = "<b>REQUEST A FREE QUOTE</b> | Call <**> at <a href='tel:<**>'><*
 
 // Menu
 // navbar-fixed-top.php
-$menu_image = "images/sa-youth-foundation.png";
+$menu_image = "images/PugFace.png";
 $menu_array['LatestNews']['href'] = "$home#latestnews";
 $menu_array['LatestNews']['text'] = "LatestNews";
 $menu_array['About']['href'] = "$home#aboutus";

@@ -2,7 +2,8 @@
   footer
 ============================================================ */
 #footer.footer .container {
-  background-color: #d3d3d3;
+  background-color: var(--footer-background-color);
+  color: var(--footer-color);
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -18,7 +19,7 @@
   flex-direction: column;
 }
 #footer .container .row .col-sm-6.updawgfooter a {
-  color: #000;
+  color: var(--footer-color);
 }
 #footer .container .row .col-sm-6.updawgfooter img {
   height: auto;

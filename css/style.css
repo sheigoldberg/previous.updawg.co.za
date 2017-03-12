@@ -1,5 +1,8 @@
 /*Customer updawg.co.za CSS styling document*/
 
+/*Declaring universal variables*/
+@import '../css_variables.css';
+
 /* ============================================================
   body
 ============================================================ */
@@ -24,7 +27,7 @@ body{
   margin:10px auto;
   width:50px;
   height:1px;
-  background:#024985;
+  background: var(--bottom-border-color);
 }
 
 /* ============================================================
@@ -37,7 +40,7 @@ body{
 .button {
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #fff;
+  color: var(--button-font-color);
 }
 
 /***********************
@@ -48,22 +51,20 @@ body{
   padding: 12px 22px;
 }
 .btn-primary.outline {
-  border: 1px solid #024985;
-  background-color: #1c1551;
+  border: 1px solid var(--button-background-color);
+  background-color: var(--button-background-color);
 }
 .btn-primary.outline:hover,
 .btn-primary.outline:focus,
 .btn-primary.outline:active,
 .btn-primary.outline.active,
 .open > .dropdown-toggle.btn-primary {
-  border-color: #024985;
-  background-color: #024985;
+  border-color: var(--button-background-hover-color);
+  background-color: var(--button-background-hover-color);
 }
 .btn-primary.outline:active,
 .btn-primary.outline.active {
-  /*border-color: #024985;*/
-  background-color: #024985;
-  /*box-shadow: none;*/
+  var(--button-background-hover-color);
 }
 
 /***********************

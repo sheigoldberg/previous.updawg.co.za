@@ -23,11 +23,9 @@
 #calltoaction-single.parallax .cover {
   min-height: calc(100vh - 131px);
   height: auto;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.5);
   height: 100%;
-  background: rgba(191, 191, 191, 0.4);
-  color: #fff;
+  background: var(--cta-background-rgba);
+  color: var(--cta-font-color);
   text-align: center;
   display: flex;
   align-items: center;

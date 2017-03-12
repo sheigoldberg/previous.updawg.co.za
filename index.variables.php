@@ -4,7 +4,7 @@ include_once './global.variables.php';
 
 // Title
 // head.php
-$page_title = "SA Youth Foundation";
+$page_title = "Foundation";
 
 // Header
 // header-carousel.php
@@ -32,32 +32,32 @@ $header_array['3']['button_href'] = "contactdetails";
 // Latest News
 // latestnews.php
 $latestnews_intro_paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-$latestnews_array[0][0]['latestnews_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/latestnews/latestnews.id.1.php";
+$latestnews_array[0][0]['latestnews_href'] = "http://updawg.co.za/templates/foundation/latestnews/latestnews.id.1.php";
 $latestnews_array[0][0]['latestnews_image'] = "images/latestnews/latestnews.id.1.jpg";
 $latestnews_array[0][0]['latestnews_title'] = "Title";
 $latestnews_array[0][0]['latestnews_intro'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
 $latestnews_array[0][0]['latestnews_full_story'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$latestnews_array[0][1]['latestnews_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/latestnews/latestnews.id.2.php";
+$latestnews_array[0][1]['latestnews_href'] = "http://updawg.co.za/templates/foundation/latestnews/latestnews.id.2.php";
 $latestnews_array[0][1]['latestnews_image'] = "images/latestnews/latestnews.id.2.jpg";
 $latestnews_array[0][1]['latestnews_title'] = "Title";
 $latestnews_array[0][1]['latestnews_intro'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
 $latestnews_array[0][1]['latestnews_full_story'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$latestnews_array[0][2]['latestnews_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/latestnews/latestnews.id.3.php";
+$latestnews_array[0][2]['latestnews_href'] = "http://updawg.co.za/templates/foundation/latestnews/latestnews.id.3.php";
 $latestnews_array[0][2]['latestnews_image'] = "images/latestnews/latestnews.id.3.jpg";
 $latestnews_array[0][2]['latestnews_title'] = "Title";
 $latestnews_array[0][2]['latestnews_intro'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
 $latestnews_array[0][2]['latestnews_full_story'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$latestnews_array[1][3]['latestnews_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/latestnews/latestnews.id.4.php";
+$latestnews_array[1][3]['latestnews_href'] = "http://updawg.co.za/templates/foundation/latestnews/latestnews.id.4.php";
 $latestnews_array[1][3]['latestnews_image'] = "images/latestnews/latestnews.id.4.jpg";
 $latestnews_array[1][3]['latestnews_title'] = "Title";
 $latestnews_array[1][3]['latestnews_intro'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
 $latestnews_array[1][3]['latestnews_full_story'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$latestnews_array[1][4]['latestnews_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/latestnews/latestnews.id.5.php";
+$latestnews_array[1][4]['latestnews_href'] = "http://updawg.co.za/templates/foundation/latestnews/latestnews.id.5.php";
 $latestnews_array[1][4]['latestnews_image'] = "images/latestnews/latestnews.id.5.jpg";
 $latestnews_array[1][4]['latestnews_title'] = "Title";
 $latestnews_array[1][4]['latestnews_intro'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
 $latestnews_array[1][4]['latestnews_full_story'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$latestnews_array[1][5]['latestnews_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/latestnews/latestnews.id.6.php";
+$latestnews_array[1][5]['latestnews_href'] = "http://updawg.co.za/templates/foundation/latestnews/latestnews.id.6.php";
 $latestnews_array[1][5]['latestnews_image'] = "images/latestnews/latestnews.id.6.jpg";
 $latestnews_array[1][5]['latestnews_title'] = "Title";
 $latestnews_array[1][5]['latestnews_intro'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
@@ -81,36 +81,36 @@ $calltoaction_single_button_href = "#contactdetails";
 // Portfolio
 $portfolio_title = "Portfolio";
 $portfolio_subtitle = "Have a look at some of our previous projects";
-$portfolio_array["0"]['portfolio_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/portfolio1.php";
-$portfolio_array["0"]['portfolio_image'] = "images/portfolio1.jpg";
-$portfolio_array["0"]['portfolio_title'] = "Title Portfolio 1";
-$portfolio_array["0"]['portfolio_subtitle'] = "Subtitle Portfolio 1";
-$portfolio_array["0"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$portfolio_array["1"]['portfolio_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/portfolio2.php";
-$portfolio_array["1"]['portfolio_image'] = "images/portfolio2.jpg";
-$portfolio_array["1"]['portfolio_title'] = "Title Portfolio 2";
-$portfolio_array["1"]['portfolio_subtitle'] = "Subtitle Portfolio 2";
-$portfolio_array["1"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$portfolio_array["2"]['portfolio_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/portfolio3.php";
-$portfolio_array["2"]['portfolio_image'] = "images/portfolio3.jpg";
-$portfolio_array["2"]['portfolio_title'] = "Title Portfolio 3";
-$portfolio_array["2"]['portfolio_subtitle'] = "Subtitle Portfolio 3";
-$portfolio_array["2"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$portfolio_array["3"]['portfolio_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/portfolio4.php";
-$portfolio_array["3"]['portfolio_image'] = "images/portfolio4.jpg";
-$portfolio_array["3"]['portfolio_title'] = "Title Portfolio 4";
-$portfolio_array["3"]['portfolio_subtitle'] = "Subtitle Portfolio 4";
-$portfolio_array["3"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$portfolio_array["4"]['portfolio_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/portfolio5.php";
-$portfolio_array["4"]['portfolio_image'] = "images/portfolio5.jpg";
-$portfolio_array["4"]['portfolio_title'] = "Title Portfolio 5";
-$portfolio_array["4"]['portfolio_subtitle'] = "Subtitle Portfolio 5";
-$portfolio_array["4"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
-$portfolio_array["5"]['portfolio_href'] = "http://updawg.co.za/addons/sa-youth-foundation.org/portfolio6.php";
-$portfolio_array["5"]['portfolio_image'] = "images/portfolio6.jpg";
-$portfolio_array["5"]['portfolio_title'] = "Title Portfolio 6";
-$portfolio_array["5"]['portfolio_subtitle'] = "Subtitle Portfolio 6";
-$portfolio_array["5"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$portfolio_array[0]["0"]['portfolio_href'] = "http://updawg.co.za/templates/foundation/portfolio1.php";
+$portfolio_array[0]["0"]['portfolio_image'] = "images/portfolio1.jpg";
+$portfolio_array[0]["0"]['portfolio_title'] = "Title Portfolio 1";
+$portfolio_array[0]["0"]['portfolio_subtitle'] = "Subtitle Portfolio 1";
+$portfolio_array[0]["0"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$portfolio_array[0]["1"]['portfolio_href'] = "http://updawg.co.za/templates/foundation/portfolio2.php";
+$portfolio_array[0]["1"]['portfolio_image'] = "images/portfolio2.jpg";
+$portfolio_array[0]["1"]['portfolio_title'] = "Title Portfolio 2";
+$portfolio_array[0]["1"]['portfolio_subtitle'] = "Subtitle Portfolio 2";
+$portfolio_array[0]["1"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$portfolio_array[0]["2"]['portfolio_href'] = "http://updawg.co.za/templates/foundation/portfolio3.php";
+$portfolio_array[0]["2"]['portfolio_image'] = "images/portfolio3.jpg";
+$portfolio_array[0]["2"]['portfolio_title'] = "Title Portfolio 3";
+$portfolio_array[0]["2"]['portfolio_subtitle'] = "Subtitle Portfolio 3";
+$portfolio_array[0]["2"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$portfolio_array[1]["3"]['portfolio_href'] = "http://updawg.co.za/templates/foundation/portfolio4.php";
+$portfolio_array[1]["3"]['portfolio_image'] = "images/portfolio4.jpg";
+$portfolio_array[1]["3"]['portfolio_title'] = "Title Portfolio 4";
+$portfolio_array[1]["3"]['portfolio_subtitle'] = "Subtitle Portfolio 4";
+$portfolio_array[1]["3"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$portfolio_array[1]["4"]['portfolio_href'] = "http://updawg.co.za/templates/foundation/portfolio5.php";
+$portfolio_array[1]["4"]['portfolio_image'] = "images/portfolio5.jpg";
+$portfolio_array[1]["4"]['portfolio_title'] = "Title Portfolio 5";
+$portfolio_array[1]["4"]['portfolio_subtitle'] = "Subtitle Portfolio 5";
+$portfolio_array[1]["4"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
+$portfolio_array[1]["5"]['portfolio_href'] = "http://updawg.co.za/templates/foundation/portfolio6.php";
+$portfolio_array[1]["5"]['portfolio_image'] = "images/portfolio6.jpg";
+$portfolio_array[1]["5"]['portfolio_title'] = "Title Portfolio 6";
+$portfolio_array[1]["5"]['portfolio_subtitle'] = "Subtitle Portfolio 6";
+$portfolio_array[1]["5"]['portfolio_paragraph'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.";
 
 // Testimonials
 // testimonials.php

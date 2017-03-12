@@ -11,8 +11,8 @@
 }
 #contactform.contactform .cover {
   height: 100%;
-  background: rgba(191, 191, 191, 0.4);
-  color: #fff;
+  background-color: var(--contact-background-rgba);
+  color: var(--contact-color);
   text-align: center;
   display: flex;
   align-items: center;
@@ -25,11 +25,13 @@
   text-transform: uppercase;
   z-index: 1;
 }
+#contactform.contactform .cover .container {
+  width: 80%;
+  padding: 25px;
+  margin: 25px;
+}
 #contactform.contactform .cover .container .row #contactform-form {
   text-align: left;
-  padding: 25px;
-  padding-right: 100px;
-  padding-left: 100px;
 }
 #contactform.contactform .cover .container .row #contactform-form .form-group #name.form-control,
 #contactform.contactform .cover .container .row #contactform-form .form-group #email.form-control,
@@ -39,16 +41,19 @@
 #contactform.contactform .cover .container .row #contactform-form .form-group #message.form-control {
   height: 150px;
 }
-/* background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.*/
-@media only screen and (max-width: 992px) and (min-width: 450px)  {
-  #contactform.contactform .cover .container .row #contactform-form {
-    padding-right: 75px;
-    padding-left: 75px;
-  }
-}
-@media only screen and (max-width: 450px)  {
-  #contactform.contactform .cover .container .row #contactform-form {
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  #contactform.contactform .cover .container {
     padding-right: 50px;
     padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 1024px)  {
+  #contactform.contactform .cover .container {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 }

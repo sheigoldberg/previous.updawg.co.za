@@ -5,7 +5,7 @@
 #banner {
   top: 0;
   position: fixed;
-  background-color: #939393;
+  background-color: var(--banner-background-color);
   height: 50px;
   width: 100%;
   display: flex;
@@ -16,8 +16,8 @@
 }
 #banner p {
   margin: 5px 5px 5px 5px;
-  color: #fff;
+  color: var(--banner-font-color);
 }
 #banner p a {
-  color: #fff;
+  color: var(--banner-font-a-color);
 }
