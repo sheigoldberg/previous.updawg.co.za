@@ -1,3 +1,13 @@
+######################
 # Logs and databases #
 ######################
 error_log
+
+PhotosBackup/
+PhotosBackup.tar
+addons/
+templates/
+updawg.backup/
+
+.htaccess
+ssv3_directory.php
