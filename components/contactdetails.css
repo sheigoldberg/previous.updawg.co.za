@@ -1,0 +1,23 @@
+/* ============================================================
+  contactdetails
+============================================================ */
+#contactdetails.container.contactdetails {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#contactdetails.container.contactdetails .contactdetails-title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#contactdetails.container.contactdetails .row .col-lg-4 .thumbnail {
+  text-align: center;
+  border: none;
+  box-shadow: none;
+}
+#contactdetails.container.contactdetails .row .col-lg-4 .thumbnail img {
+  height: 50px;
+  width: 50px;
+}

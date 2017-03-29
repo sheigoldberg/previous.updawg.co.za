@@ -1,0 +1,59 @@
+/*CSS variables*/
+
+:root {
+  /*Universal*/
+  --primary-opaque: rgba(60,60,60,0.4);
+  --primary-color: #1c1551;
+  --primary-font-color: #fff;
+  --secondary-color: #024985;
+  --secondary-font-color: #fff;
+  --tertiary-color: #939393;
+  --tertiary-font-color: #fff;
+  --quarternary-color: #d3d3d3;
+  --quarternary-font-color: #000;
+  --quinary-color: #a3a3a3;
+  --quinary-font-color: #535353;
+  --senary-color: #e3e3e3;
+  --senary-font-color: #131313;
+  /*Fonts*/
+  --main-font-family: 'Poppins', sans-serif;
+  /*Opaque Covers*/
+  --main-background-rgba: var(--opaque);
+  /*Buttons*/
+  --button-font-color: var(--primary-font-color);
+  --button-background-color: var(--primary-color);
+  --button-background-hover-color: var(--secondary-color);
+  /*Bottom border*/
+  --bottom-border-color: var(--primary-color);
+  /*Banner*/
+  --banner-background-color: var(--secondary-color);
+  --banner-font-color: var(--primary-font-color);
+  --banner-font-a-color: var(--primary-font-color);
+  /*Navbar*/
+  --navbar-default-background-color1: var(--primary-color);
+  --navbar-default-background-color2: var(--primary-color);
+  --navbar-default-hover-background-color: var(--primary-color);
+  --navbar-default-active-background-color: var(--primary-color);
+  --navbar-default-color: var(--primary-font-color);
+  --navbar-default-a-color: var(--primary-font-color);
+  /*Header*/
+  --header-font-color: var(--primary-font-color);
+  --header-background-rgba: var(--primary-opaque);
+  /*Call to action*/
+  --cta-font-color: var(--primary-font-color);
+  --cta-background-rgba: var(--primary-opaque);
+  /*Portfolio*/
+  --portfolio-background-color: var(--quinary-color);
+  --portfolio-background-color-hover: var(--quarternary-color);
+  --portfolio-color: var(--quarternary-font-color);
+  --portfolio-caption-color: var(--quarternary-font-color);
+  /*Testimonials*/
+  --testimonials-background-rgba: var(--primary-opaque);
+  --testimonials-color: var(--primary-font-color);
+  /*Contact Form*/
+  --contact-background-rgba: var(--primary-opaque);
+  --contact-color: var(--primary-font-color);
+  /*Contact Form*/
+  --footer-background-color: var(--quarternary-color);
+  --footer-color: var(--quarternary-font-color);
+}

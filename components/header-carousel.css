@@ -1,0 +1,127 @@
+/* ============================================================
+  header-carousel
+============================================================ */
+/* ============================================================
+  Header Carousel
+============================================================ */
+#header-carousel.carousel.slide{
+  height: calc(100vh - 131px);
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#header-carousel.carousel.slide .carousel-inner,
+#header-carousel.carousel.slide .carousel-inner .item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text z-index: 1;
+  background: var(--header-background-rgba);
+  color: var(--header-font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer img {
+  height: auto;
+  width: 50%;
+  min-width: 210px;
+  max-width: 400px;
+  padding: 25px;
+}
+#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
+  font-weight: 300;
+  padding: 25px;
+  text-transform: uppercase;
+}
+#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
+  font-weight: 300;
+  padding: 25px;
+}
+#header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
+  padding: 25px;
+}
+
+/* ============================================================
+  This is where we deal with the responsive elements of the design
+============================================================ */
+
+@media only screen and (max-width: 768px)  {
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer {
+    height: 50%;
+    width: 100%;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer img {
+    padding: 10px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
+    font-size: 30px;
+    padding: 10px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer {
+    height: 75%;
+    width: 100%;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer img {
+    padding: 20px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
+    font-size: 50px;
+    padding: 20px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
+    font-size: 30px;
+    padding: 20px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px)  {
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer {
+    height: 90%;
+    width: 100%;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer img {
+    padding: 30px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
+    font-size: 60px;
+    padding: 30px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
+    font-size: 40px;
+    padding: 30px;
+  }
+  #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .button {
+    font-size: 30px;
+    padding: 30px;
+  }
+}
