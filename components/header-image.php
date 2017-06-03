@@ -10,9 +10,11 @@
     <div class="slidertextcontainer">
       <p class="maintitle"><?php print("$header_title"); ?></p>
       <p class="subtitle"><?php print("$header_subtitle"); ?></p>
-      <div class="button">
-       <a href="#<?php print("$header_button_href"); ?>"><button type="button" class="btn btn-primary outline"><?php print("$header_button"); ?></button></a>
-      </div>
+      <?php if(isset($header_button1)){ ?>
+        <div class="button">
+         <a href="#<?php print("$header_button_href"); ?>"><button type="button" class="btn btn-primary outline"><?php print("$header_button"); ?></button></a>
+        </div>
+      <?php } ?>
     </div>
   </div>
 </div>

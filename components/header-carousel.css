@@ -5,7 +5,7 @@
   Header Carousel
 ============================================================ */
 #header-carousel.carousel.slide{
-  height: calc(100vh - 131px);
+  height: calc(100vh - 81px);
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -46,7 +46,6 @@
 #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .maintitle {
   font-weight: 300;
   padding: 25px;
-  text-transform: uppercase;
 }
 #header-carousel.carousel.slide .carousel-inner .item .imageopacitydiv .slidertextcontainer .subtitle {
   font-weight: 300;

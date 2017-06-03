@@ -3,7 +3,7 @@
 <!-- aboutus
 ================================================== -->
 <link rel="stylesheet" href="./components/aboutus.css">
-<div id="aboutus" class="container aboutus">
+<div id="aboutus" class="container-fluid aboutus">
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-md-6">

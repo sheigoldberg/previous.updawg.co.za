@@ -3,7 +3,7 @@
 <!-- contactdetails
 ================================================== -->
 <link rel="stylesheet" href="./components/contactdetails.css">
-<div id="contactdetails" class="container contactdetails">
+<div id="contactdetails" class="container-fluid contactdetails">
   <div class="contactdetails-title bottom_border">
     <h2><?php print("$contactdetails_title"); ?></h2>
   </div>
@@ -28,7 +28,7 @@
     </div>
     <div class="col-lg-4">
       <div class="thumbnail">
-          <img src="images/phoneicon.png" alt="...">
+          <img src="images/location.png" alt="...">
           <div class="caption">
             <p>LOCATION</p>
             <p><?php print("$contactdetails_location"); ?></p>

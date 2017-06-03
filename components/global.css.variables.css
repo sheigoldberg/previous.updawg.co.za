@@ -1,0 +1,50 @@
+/*CSS variables*/
+
+:root {
+  /*Universal*/
+  --primary-opaque: rgba(0,0,0,0.3);
+  --total-height-top: 81px;
+  /*Fonts*/
+  --main-font-family: 'Pontano Sans', sans-serif;
+
+  /*Buttons*/
+  --button-font-color: #404040;
+  --button-background-color: #e0e0e0;
+  --button-background-hover-color: #f0f0f0;
+  /*Bottom border*/
+  --bottom-border-color: #404040;
+  /*Banner*/
+  --banner-background-color: #e0e0e0;
+  --banner-font-color: #fff;
+  --banner-font-a-color: #fff;
+  /*Navbar*/
+  --navbar-padding-top: 0px;
+  --navbar-default-background-color1: #e0e0e0;
+  --navbar-default-background-color2: #f0f0f0;
+  --navbar-default-hover-background-color: #f0f0f0;
+  --navbar-default-active-background-color: #f0f0f0;
+  --navbar-default-color: #404040;
+  --navbar-default-a-color: #505050;
+
+  /*Header*/
+  --header-font-color: #404040;
+  --header-background-rgba: rgba(0,0,0,0.3);
+  /*Call to action*/
+  --cta-font-color: #404040;
+  --cta-background-rgba: rgba(0,0,0,0.3);
+  /*Portfolio*/
+  --portfolio-background-color: #f0f0f0;
+  --portfolio-background-color-hover: #e0e0e0;
+  --portfolio-color: #404040;
+  --portfolio-caption-color: #404040;
+  /*Testimonials*/
+  --testimonials-background-rgba: rgba(0,0,0,0.3);
+  --testimonials-color: #ffffff;
+  --testimonials-a-color: #ffffff;
+  /*Contact Form*/
+  --contact-background-rgba: rgba(0,0,0,0.3);
+  --contact-color: #404040;
+  /*Contact Form*/
+  --footer-background-color: #e0e0e0;
+  --footer-color: #404040;
+}

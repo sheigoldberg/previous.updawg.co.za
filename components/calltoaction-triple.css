@@ -1,35 +1,42 @@
 /* ============================================================
-  calltoaction-triple
+  calltoaction-single
 ============================================================ */
-#calltoaction-triple.parallax {
-  min-height: 400px;
+/* ============================================================
+  Parallax
+============================================================ */
+#calltoaction-single.parallax {
+  min-height: calc(100vh - var(--total-height-top));
+  height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
-/* background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.*/
-@media only screen and (min-width: 992px)  {
-  #calltoaction-triple.parallax {
-    background-attachment: fixed;
-  }
-}
-#calltoaction-triple.parallax .cover {
-  min-height: 400px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
+#calltoaction-single.parallax .cover {
+  min-height: calc(100vh - var(--total-height-top));
+  height: auto;
+  height: 100%;
+  background: var(--cta-background-rgba);
+  color: var(--cta-font-color);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-#calltoaction-triple.parallax .cover .parallax-title {
-  padding: 25px 25px 25px 25px;
+#calltoaction-single.parallax .cover .parallax-title {
+  padding: 81px 25px 25px 25px;
   /*text-align: center;*/
   text-transform: uppercase;
   z-index: 1;
 }
-#calltoaction-triple.parallax .cover .container {
-  padding-bottom: 50px;
+#calltoaction-single.parallax .cover .parallax-content {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
 }
-#calltoaction-triple.parallax .cover .container .row .col-md-4 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+#calltoaction-single.parallax .cover .parallax-calltoaction-content {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
 }

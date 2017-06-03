@@ -1,7 +1,7 @@
 /* ============================================================
   footer
 ============================================================ */
-#footer.footer .container {
+#footer.footer .container-fluid {
   background-color: var(--footer-background-color);
   color: var(--footer-color);
   text-align: center;
@@ -11,17 +11,17 @@
   margin-right: 0px;
   width: 100%
 }
-#footer .container .row .col-sm-6.updawgfooter {
+#footer .container-fluid .row .col-sm-6.updawgfooter {
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-#footer .container .row .col-sm-6.updawgfooter a {
+#footer .container-fluid .row .col-sm-6.updawgfooter a {
   color: var(--footer-color);
 }
-#footer .container .row .col-sm-6.updawgfooter img {
+#footer .container-fluid .row .col-sm-6.updawgfooter img {
   height: auto;
   max-width: 60px;
 }

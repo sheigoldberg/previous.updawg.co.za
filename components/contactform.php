@@ -10,7 +10,7 @@
     <div class="contactform-title bottom_border">
       <h2><?php print("$contactform_title"); ?></h2>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <!-- <div class="col-md-6 col-md-offset-3"> -->
           <!-- <h1 class="page-header text-center">Contact Form Example</h1> -->

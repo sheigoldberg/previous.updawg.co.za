@@ -2,7 +2,7 @@
   contactform
 ============================================================ */
 #contactform.contactform {
-  min-height: calc(100vh - 131px);
+  min-height: calc(100vh - var(--total-height-top));
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -10,7 +10,8 @@
   background-size: cover;
 }
 #contactform.contactform .cover {
-  height: 100%;
+  /*height: 100%;*/
+  min-height: calc(100vh - var(--total-height-top));
   background-color: var(--contact-background-rgba);
   color: var(--contact-color);
   text-align: center;
@@ -20,29 +21,29 @@
   flex-direction: column;
 }
 #contactform.contactform .cover .contactform-title {
-  padding: 50px 25px 25px 25px;
+  padding: 100px 25px 25px 25px;
   /*text-align: center;*/
   text-transform: uppercase;
   z-index: 1;
 }
-#contactform.contactform .cover .container {
+#contactform.contactform .cover .container-fluid {
   width: 80%;
   padding: 25px;
   margin: 25px;
 }
-#contactform.contactform .cover .container .row #contactform-form {
+#contactform.contactform .cover .container-fluid .row #contactform-form {
   text-align: left;
 }
-#contactform.contactform .cover .container .row #contactform-form .form-group #name.form-control,
-#contactform.contactform .cover .container .row #contactform-form .form-group #email.form-control,
-#contactform.contactform .cover .container .row #contactform-form .form-group #phone.form-control  {
+#contactform.contactform .cover .container-fluid .row #contactform-form .form-group #name.form-control,
+#contactform.contactform .cover .container-fluid .row #contactform-form .form-group #email.form-control,
+#contactform.contactform .cover .container-fluid .row #contactform-form .form-group #phone.form-control  {
   height: 50px;
 }
-#contactform.contactform .cover .container .row #contactform-form .form-group #message.form-control {
+#contactform.contactform .cover .container-fluid .row #contactform-form .form-group #message.form-control {
   height: 150px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
-  #contactform.contactform .cover .container {
+  #contactform.contactform .cover .container-fluid {
     padding-right: 50px;
     padding-left: 50px;
     margin-right: 50px;
@@ -50,7 +51,7 @@
   }
 }
 @media only screen and (min-width: 1024px)  {
-  #contactform.contactform .cover .container {
+  #contactform.contactform .cover .container-fluid {
     padding-right: 100px;
     padding-left: 100px;
     margin-right: 100px;

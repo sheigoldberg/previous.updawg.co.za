@@ -4,14 +4,14 @@
 ================================================== -->
 <!-- Custom css available in css/style.css SERVICES CONTENT -->
 <link rel="stylesheet" href="./components/services.css">
-<div id="services" class="container services">
+<div id="services" class="container-fluid services">
   <div class="services-title bottom_border">
     <h2>Services</h2>
   </div>
   <div class="services-subtitle">
     <h3><?php print("$services_intro_paragraph"); ?></h3>
   </div>
-  <div class="container">
+  <div class="container-fluid">
     <!-- Create the services from $services_array --><?php print("\n");
     foreach($service_array as $service_row){
       print("    <div class=\"row\">\n");
@@ -28,5 +28,5 @@
       print("    </div><!-- /.row -->\n");
     } ?>
     <!-- End - Create the services from $services_array -->
-  </div><!-- /.container -->
+  </div><!-- /.container-fluid -->
 </div><!-- /#services -->

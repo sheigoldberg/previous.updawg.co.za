@@ -3,7 +3,7 @@
 ============================================================ */
 #testimonials {
   height: auto;
-  min-height: calc(100vh - 131px);
+  min-height: calc(100vh - var(--total-height-top));
   background-position: 50% 50%;
   width: 100%;
   padding: 0px;
@@ -13,15 +13,15 @@
 }
 #testimonials .cover {
   height: auto;
-  min-height: calc(100vh - 131px);
+  min-height: calc(100vh - var(--total-height-top));
   background-color: var(--testimonials-background-rgba);
   color: var(--testimonials-color);
   text-align: center;
   display: block;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;*/
+  width: 100%;
+  padding: 0px;
+  padding-top: 50px;
+  margin: 0px;
 }
 #testimonials .cover .testimonials-title {
   text-transform: uppercase;
@@ -43,16 +43,58 @@
 }
 #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption {
   /*Edit the height of the text*/
-  /*min-height: 400px;
-  height: auto;*/
+  min-height: 400px;
+  height: auto;
   padding-top: 25px;
   padding-bottom: 50px;
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
   display: block;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;*/
+  font-weight: 900;
+}
+#testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption  h2,
+#testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption  h4,
+#testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption  p,
+#testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption  p a {
+  color: var(--testimonials-color);
+  padding: 10px;
+}
+
+/* ============================================================
+  This is where we deal with the responsive elements of the design
+============================================================ */
+
+@media only screen and (min-width: 560px) and (max-width: 768px)  {
+  #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item {
+    min-height: 500px;
+    height: auto;
+  }
+  #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption {
+    min-height: 500px;
+    height: auto;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 460px) and (max-width: 560px)  {
+  #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item {
+    min-height: 600px;
+    height: auto;
+  }
+  #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption {
+    min-height: 600px;
+    height: auto;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 480px)  {
+  #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item {
+    min-height: 700px;
+    height: auto;
+  }
+  #testimonials .cover #testimonial-carousel.carousel.slide.testimonials .carousel-inner .item .carousel-caption {
+    min-height: 700px;
+    height: auto;
+    padding: 10px;
+  }
 }

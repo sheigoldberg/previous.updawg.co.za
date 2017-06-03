@@ -33,7 +33,7 @@
     } ?>
     <!-- End - Create the latestnews from $latestnews_array -->
   </div><!-- /.container -->
-  <div class="button" style="color=#000;">
+  <!-- <div class="button">
     <a href="http://updawg.co.za/blog/"><button type="button" class="btn btn-primary outline">See all our news</button></a>
-  </div>
+  </div> -->
 </div><!-- /.container -->

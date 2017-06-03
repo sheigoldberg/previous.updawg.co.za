@@ -4,7 +4,7 @@
 ================================================== -->
 <link rel="stylesheet" href="./components/footer.css">
 <footer id="footer" class="footer">
-  <div class="container">
+  <div class="container-fluid">
   	<div class="row">
       <div class="col-sm-6 updawgfooter">
   			<p><?php print("$footer_copywright"); ?></p>

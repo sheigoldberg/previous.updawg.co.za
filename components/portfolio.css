@@ -17,6 +17,12 @@
   max-width: 500px;
   z-index: 1;
 }
+#portfolio.portfolio .portfolio-subtitle {
+  padding: 25px;
+  padding-right: auto;
+  padding-left: auto;
+  z-index: 1;
+}
 #portfolio.portfolio .container {
   padding: 25px;
 }

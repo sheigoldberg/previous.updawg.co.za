@@ -5,7 +5,7 @@
   Parallax
 ============================================================ */
 #calltoaction-single.parallax {
-  min-height: calc(100vh - 131px);
+  min-height: calc(100vh - var(--total-height-top));
   height: auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -14,14 +14,8 @@
   padding: 0px;
   margin: 0px;
 }
-/* background fixed and background cover don't play nicely together on iOS. So background is fixed only on desktops.*/
-/*@media only screen and (min-width: 992px)  {
-  #calltoaction-single.parallax {
-    background-attachment: fixed;
-  }
-}*/
 #calltoaction-single.parallax .cover {
-  min-height: calc(100vh - 131px);
+  min-height: calc(100vh - var(--total-height-top));
   height: auto;
   height: 100%;
   background: var(--cta-background-rgba);
@@ -44,5 +38,9 @@
 }
 #calltoaction-single.parallax .cover .parallax-calltoaction-content {
   padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
+}
+#calltoaction-single.parallax .cover .parallax-calltoaction-content h4 {
+  font-weight: 900;
   /*text-align: center;*/
 }

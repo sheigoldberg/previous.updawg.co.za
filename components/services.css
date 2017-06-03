@@ -7,35 +7,35 @@
 /*Create padding on the top and the bottom for the services section*/
 
 .services {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 80px;
   text-align: center;
   background-color: #f3f3f3;
   width: 100%;
 }
-#services.container.services .services-title {
+#services.container-fluid.services .services-title {
   padding-top: 25px;
   padding-bottom: 25px;
   text-transform: uppercase;
 }
-#services.container.services .services-subtitle {
+#services.container-fluid.services .services-subtitle {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-#services.container.services .container {
+#services.container-fluid.services .container-fluid {
   padding: 25px;
 }
 
 /* Center align the text within the three columns below the carousel */
-#services.container.services .container .col-md-4 {
+#services.container-fluid.services .container-fluid .col-md-4 {
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 10px;
 }
-#services.container.services .container h2 {
+#services.container-fluid.services .container-fluid h2 {
   font-weight: normal;
 }
-#services.container.services .container .col-md-4 p {
+#services.container-fluid.services .container-fluid .col-md-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
