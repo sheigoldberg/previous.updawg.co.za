@@ -1,0 +1,23 @@
+/* ============================================================
+  text
+============================================================ */
+
+#text.container.text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#text.container.text .row .col-md-12 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+#text.container.text .row .col-md-12 .text-title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#text.container.text .row .col-md-12 p {
+
+}

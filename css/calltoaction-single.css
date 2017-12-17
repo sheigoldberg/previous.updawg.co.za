@@ -1,0 +1,46 @@
+/* ============================================================
+  calltoaction-single
+============================================================ */
+/* ============================================================
+  Parallax
+============================================================ */
+#calltoaction-single.parallax {
+  min-height: calc(100vh - var(--total-height-top));
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#calltoaction-single.parallax .cover {
+  min-height: calc(100vh - var(--total-height-top));
+  height: auto;
+  height: 100%;
+  background: var(--cta-background-rgba);
+  color: var(--cta-font-color);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#calltoaction-single.parallax .cover .parallax-title {
+  padding: 81px 25px 25px 25px;
+  /*text-align: center;*/
+  text-transform: uppercase;
+  z-index: 1;
+}
+#calltoaction-single.parallax .cover .parallax-content {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
+}
+#calltoaction-single.parallax .cover .parallax-calltoaction-content {
+  padding: 25px 25px 25px 25px;
+  /*text-align: center;*/
+}
+#calltoaction-single.parallax .cover .parallax-calltoaction-content h4 {
+  font-weight: 900;
+  /*text-align: center;*/
+}

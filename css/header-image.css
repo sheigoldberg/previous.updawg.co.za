@@ -1,0 +1,87 @@
+/* ============================================================
+  header-image
+============================================================ */
+/* ============================================================
+  Header Carousel
+============================================================ */
+#header-image.header-image {
+  height: calc(100vh - var(--total-height-top));
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header-image.header-image .imageopacitydiv {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text z-index: 1;
+  background: var(--header-background-rgba);
+  color: var(--header-font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+  font-weight: 300;
+  padding: 25px;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+  font-weight: 300;
+  padding: 25px;
+}
+#header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+  padding: 25px;
+}
+
+/* ============================================================
+  This is where we deal with the responsive elements of the design
+============================================================ */
+
+@media only screen and (max-width: 768px)  {
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+    font-size: 30px;
+    padding: 10px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+    font-size: 50px;
+    padding: 20px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+    font-size: 30px;
+    padding: 20px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px)  {
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .maintitle {
+    font-size: 60px;
+    padding: 30px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .subtitle {
+    font-size: 40px;
+    padding: 30px;
+  }
+  #header-image.header-image .imageopacitydiv .slidertextcontainer .button {
+    font-size: 30px;
+    padding: 30px;
+  }
+}

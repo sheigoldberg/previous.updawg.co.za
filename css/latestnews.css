@@ -1,0 +1,27 @@
+/* ============================================================
+  latestnews
+============================================================ */
+#latestnews.container.latestnews {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom-width: 2px;
+}
+#latestnews.container.latestnews .latestnews-title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+#latestnews.container.latestnews .container {
+  width: 100%;
+}
+#latestnews.container.latestnews .container .row .col-md-4 {
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+#latestnews.container.latestnews .container .row .col-md-4 .latestnews-image {
+  padding: 5px;
+}
+#latestnews.container.latestnews .container .row .col-md-4 .latestnews-image img {
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+/* ============================================================
+  testimonial-v1
+============================================================ */
+
+#testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#testimonials .testimonials-title {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 25px;
+  padding-right: auto;
+  padding-left: auto;
+  z-index: 1;
+}
+#testimonials .card-columns {
+  padding: 20px;
+}
+#testimonials .card-columns .card img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 760px)  {
+  #testimonials .card-columns {
+    column-count: 1;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 1224px)  {
+  #testimonials .card-columns {
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  #testimonials .card-columns {
+    column-count: 3;
+  }
+}
